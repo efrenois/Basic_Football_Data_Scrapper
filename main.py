@@ -1,11 +1,11 @@
-from sites.fbref import FBrefScraper
+from scraper import Scraper
 
 def main():
-    print("⚽️ Football Data Scraper")
+    print(" Sport Data Scraper")
     print("------------------------")
 
-    url = "https://fbref.com/en/comps/12/La-Liga-Stats" # URL de la page à scrapper
-    FBrefScraper().scrape_tables(url)
+    url = "..." # URL de la page à scraper
+    Scraper().scrape_tables(url)
 
 if __name__ == "__main__":
     main()
